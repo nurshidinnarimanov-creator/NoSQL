@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "6ab37c9023244dcb60bc1d5e"
+  },
+  "vehicleId": "BUS-101",
+  "type": "bus",
+  "model": "Yutong",
+  "year": 2022,
+  "capacity": 80
+},
+{
+  "_id": {
+    "$oid": "6ab37c9023244dcb60bc1d5f"
+  },
+  "vehicleId": "BUS-102",
+  "type": "bus",
+  "model": "Golden Dragon",
+  "year": 2021,
+  "capacity": 75
+},
+{
+  "_id": {
+    "$oid": "6ab37c9023244dcb60bc1d60"
+  },
+  "vehicleId": "BUS-103",
+  "type": "bus",
+  "model": "Yutong",
+  "year": 2023,
+  "capacity": 85
+},
+{
+  "_id": {
+    "$oid": "6ab37c9023244dcb60bc1d61"
+  },
+  "vehicleId": "BUS-104",
+  "type": "bus",
+  "model": "MAN",
+  "year": 2020,
+  "capacity": 70
+},
+{
+  "_id": {
+    "$oid": "6ab37c9023244dcb60bc1d62"
+  },
+  "vehicleId": "BUS-105",
+  "type": "bus",
+  "model": "Mercedes",
+  "year": 2022,
+  "capacity": 78
+},
+{
+  "_id": {
+    "$oid": "6ab37c9023244dcb60bc1d63"
+  },
+  "vehicleId": "TAXI-201",
+  "type": "taxi",
+  "model": "Toyota Camry",
+  "year": 2023,
+  "capacity": 4
+},
+{
+  "_id": {
+    "$oid": "6ab37c9023244dcb60bc1d64"
+  },
+  "vehicleId": "TAXI-202",
+  "type": "taxi",
+  "model": "Hyundai Sonata",
+  "year": 2022,
+  "capacity": 4
+},
+{
+  "_id": {
+    "$oid": "6ab37c9023244dcb60bc1d65"
+  },
+  "vehicleId": "TRUCK-301",
+  "type": "truck",
+  "model": "Volvo FH",
+  "year": 2021,
+  "capacity": 2
+}]

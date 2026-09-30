@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "6aaa32505c93dd9dc0b872a8"
+  },
+  "carId": 1001,
+  "brand": "Toyota",
+  "model": "Camry",
+  "year": 2022,
+  "price": 18500000,
+  "mileage": 25000,
+  "automatic": true,
+  "engine": {
+    "type": "petrol",
+    "volume": 2.5,
+    "power": 181
+  },
+  "options": [
+    "Air Conditioner",
+    "Cruise Control",
+    "Camera"
+  ],
+  "available": true
+}]
