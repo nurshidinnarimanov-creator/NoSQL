@@ -1,0 +1,210 @@
+[{
+  "_id": {
+    "$oid": "6a97bf1540942dc8cef9b368"
+  },
+  "restaurantId": 401,
+  "name": "Basilic",
+  "cuisine": "Italian",
+  "rating": 4.7,
+  "ordersCount": 1250,
+  "isOpen": true,
+  "menu": [
+    "Pizza",
+    "Pasta",
+    "Lasagna"
+  ],
+  "address": {
+    "city": "Almaty",
+    "street": "Abay",
+    "building": 45
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97bf1540942dc8cef9b369"
+  },
+  "restaurantId": 402,
+  "name": "Sultan",
+  "cuisine": "Kazakh",
+  "rating": 4.5,
+  "ordersCount": 980,
+  "isOpen": true,
+  "menu": [
+    "Beshbarmak",
+    "Kazy",
+    "Baursak"
+  ],
+  "address": {
+    "city": "Astana",
+    "street": "Kabanbay Batyr",
+    "building": 12
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97bf1540942dc8cef9b36a"
+  },
+  "restaurantId": 403,
+  "name": "Tokyo Sushi",
+  "cuisine": "Japanese",
+  "rating": 4.8,
+  "ordersCount": 1560,
+  "isOpen": true,
+  "menu": [
+    "Sushi",
+    "Ramen",
+    "Tempura"
+  ],
+  "address": {
+    "city": "Almaty",
+    "street": "Dostyk",
+    "building": 78
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97bf1540942dc8cef9b36b"
+  },
+  "restaurantId": 404,
+  "name": "Pizza House",
+  "cuisine": "Italian",
+  "rating": 4.2,
+  "ordersCount": 760,
+  "isOpen": false,
+  "menu": [
+    "Pizza",
+    "Calzone",
+    "Pasta"
+  ],
+  "address": {
+    "city": "Shymkent",
+    "street": "Tauke Khan",
+    "building": 23
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97bf1540942dc8cef9b36c"
+  },
+  "restaurantId": 405,
+  "name": "Burger Station",
+  "cuisine": "American",
+  "rating": 4.4,
+  "ordersCount": 1120,
+  "isOpen": true,
+  "menu": [
+    "Burger",
+    "Fries",
+    "Nuggets"
+  ],
+  "address": {
+    "city": "Almaty",
+    "street": "Tole Bi",
+    "building": 91
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97bf1540942dc8cef9b36d"
+  },
+  "restaurantId": 406,
+  "name": "Dastarhan",
+  "cuisine": "Uzbek",
+  "rating": 4.6,
+  "ordersCount": 890,
+  "isOpen": true,
+  "menu": [
+    "Plov",
+    "Lagman",
+    "Samsa"
+  ],
+  "address": {
+    "city": "Astana",
+    "street": "Saryarka",
+    "building": 34
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97bf1540942dc8cef9b36e"
+  },
+  "restaurantId": 407,
+  "name": "Seoul Food",
+  "cuisine": "Korean",
+  "rating": 4.3,
+  "ordersCount": 670,
+  "isOpen": false,
+  "menu": [
+    "Bibimbap",
+    "Kimchi",
+    "Ramen"
+  ],
+  "address": {
+    "city": "Karaganda",
+    "street": "Bukhar Zhyrau",
+    "building": 56
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97bf1540942dc8cef9b36f"
+  },
+  "restaurantId": 408,
+  "name": "Green Garden",
+  "cuisine": "Vegetarian",
+  "rating": 4.9,
+  "ordersCount": 1340,
+  "isOpen": true,
+  "menu": [
+    "Salad",
+    "Pasta",
+    "Smoothie"
+  ],
+  "address": {
+    "city": "Almaty",
+    "street": "Furmanov",
+    "building": 18
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97bf1540942dc8cef9b370"
+  },
+  "restaurantId": 409,
+  "name": "Tandoor",
+  "cuisine": "Indian",
+  "rating": 4.1,
+  "ordersCount": 540,
+  "isOpen": true,
+  "menu": [
+    "Curry",
+    "Naan",
+    "Tandoori Chicken"
+  ],
+  "address": {
+    "city": "Shymkent",
+    "street": "Ryskulov",
+    "building": 67
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97bf1540942dc8cef9b371"
+  },
+  "restaurantId": 410,
+  "name": "China Wok",
+  "cuisine": "Chinese",
+  "rating": 4,
+  "ordersCount": 450,
+  "isOpen": false,
+  "menu": [
+    "Wok",
+    "Dumplings",
+    "Fried Rice"
+  ],
+  "address": {
+    "city": "Astana",
+    "street": "Bogenbay Batyr",
+    "building": 29
+  }
+}]

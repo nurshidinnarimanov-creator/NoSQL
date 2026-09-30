@@ -1,0 +1,531 @@
+[{
+  "_id": {
+    "$oid": "6aa0f687d32797c2c9a76596"
+  },
+  "carId": 1001,
+  "brand": "Toyota",
+  "model": "Camry",
+  "year": 2024,
+  "price": 18500000,
+  "color": "White",
+  "engine": {
+    "type": "Petrol",
+    "volume": 2.5,
+    "power": 203
+  },
+  "options": [
+    "Leather seats",
+    "Heated seats",
+    "Cruise control",
+    "Apple CarPlay"
+  ],
+  "features": [
+    {
+      "name": "Transmission",
+      "value": "Automatic"
+    },
+    {
+      "name": "Seats",
+      "value": 5
+    }
+  ],
+  "dealerId": 201
+},
+{
+  "_id": {
+    "$oid": "6aa0f697d32797c2c9a76597"
+  },
+  "carId": 1002,
+  "brand": "BMW",
+  "model": "X5",
+  "year": 2023,
+  "price": 38500000,
+  "color": "Black",
+  "engine": {
+    "type": "Petrol",
+    "volume": 3,
+    "power": 340
+  },
+  "options": [
+    "Panoramic roof",
+    "Adaptive cruise control",
+    "Parking sensors"
+  ],
+  "features": [
+    {
+      "name": "Transmission",
+      "value": "Automatic"
+    },
+    {
+      "name": "Seats",
+      "value": 5
+    }
+  ],
+  "dealerId": 203
+},
+{
+  "_id": {
+    "$oid": "6aa0f697d32797c2c9a76598"
+  },
+  "carId": 1003,
+  "brand": "Hyundai",
+  "model": "Tucson",
+  "year": 2024,
+  "price": 16500000,
+  "color": "Gray",
+  "engine": {
+    "type": "Petrol",
+    "volume": 2,
+    "power": 150
+  },
+  "options": [
+    "Heated seats",
+    "Rear camera",
+    "Climate control"
+  ],
+  "features": [
+    {
+      "name": "Transmission",
+      "value": "Automatic"
+    },
+    {
+      "name": "Seats",
+      "value": 5
+    }
+  ],
+  "dealerId": 201
+},
+{
+  "_id": {
+    "$oid": "6aa0f697d32797c2c9a76599"
+  },
+  "carId": 1004,
+  "brand": "Mercedes-Benz",
+  "model": "E200",
+  "year": 2024,
+  "price": 42000000,
+  "color": "Silver",
+  "engine": {
+    "type": "Petrol",
+    "volume": 2,
+    "power": 204
+  },
+  "options": [
+    "Leather seats",
+    "Panoramic roof",
+    "LED headlights"
+  ],
+  "features": [
+    {
+      "name": "Transmission",
+      "value": "Automatic"
+    },
+    {
+      "name": "Seats",
+      "value": 5
+    }
+  ],
+  "dealerId": 203
+},
+{
+  "_id": {
+    "$oid": "6aa0f697d32797c2c9a7659a"
+  },
+  "carId": 1005,
+  "brand": "Kia",
+  "model": "Sportage",
+  "year": 2023,
+  "price": 15200000,
+  "color": "Blue",
+  "engine": {
+    "type": "Petrol",
+    "volume": 2,
+    "power": 150
+  },
+  "options": [
+    "Heated steering wheel",
+    "Rear camera",
+    "Cruise control"
+  ],
+  "features": [
+    {
+      "name": "Transmission",
+      "value": "Automatic"
+    },
+    {
+      "name": "Seats",
+      "value": 5
+    }
+  ],
+  "dealerId": 202
+},
+{
+  "_id": {
+    "$oid": "6aa0f697d32797c2c9a7659b"
+  },
+  "carId": 1006,
+  "brand": "Lexus",
+  "model": "RX350",
+  "year": 2024,
+  "price": 39500000,
+  "color": "Black",
+  "engine": {
+    "type": "Petrol",
+    "volume": 3.5,
+    "power": 300
+  },
+  "options": [
+    "Leather seats",
+    "Panoramic roof",
+    "360 camera"
+  ],
+  "features": [
+    {
+      "name": "Transmission",
+      "value": "Automatic"
+    },
+    {
+      "name": "Seats",
+      "value": 5
+    }
+  ],
+  "dealerId": 205
+},
+{
+  "_id": {
+    "$oid": "6aa0f697d32797c2c9a7659c"
+  },
+  "carId": 1007,
+  "brand": "Audi",
+  "model": "A6",
+  "year": 2023,
+  "price": 33000000,
+  "color": "White",
+  "engine": {
+    "type": "Petrol",
+    "volume": 2,
+    "power": 245
+  },
+  "options": [
+    "Virtual cockpit",
+    "LED headlights",
+    "Heated seats"
+  ],
+  "features": [
+    {
+      "name": "Transmission",
+      "value": "Automatic"
+    },
+    {
+      "name": "Seats",
+      "value": 5
+    }
+  ],
+  "dealerId": 202
+},
+{
+  "_id": {
+    "$oid": "6aa0f697d32797c2c9a7659d"
+  },
+  "carId": 1008,
+  "brand": "Toyota",
+  "model": "RAV4",
+  "year": 2024,
+  "price": 21000000,
+  "color": "Red",
+  "engine": {
+    "type": "Hybrid",
+    "volume": 2.5,
+    "power": 219
+  },
+  "options": [
+    "Adaptive cruise control",
+    "Rear camera",
+    "Heated seats"
+  ],
+  "features": [
+    {
+      "name": "Transmission",
+      "value": "Automatic"
+    },
+    {
+      "name": "Seats",
+      "value": 5
+    }
+  ],
+  "dealerId": 201
+},
+{
+  "_id": {
+    "$oid": "6aa0f697d32797c2c9a7659e"
+  },
+  "carId": 1009,
+  "brand": "Volkswagen",
+  "model": "Tiguan",
+  "year": 2023,
+  "price": 17800000,
+  "color": "Gray",
+  "engine": {
+    "type": "Petrol",
+    "volume": 1.5,
+    "power": 150
+  },
+  "options": [
+    "Climate control",
+    "Parking sensors",
+    "Cruise control"
+  ],
+  "features": [
+    {
+      "name": "Transmission",
+      "value": "Automatic"
+    },
+    {
+      "name": "Seats",
+      "value": 5
+    }
+  ],
+  "dealerId": 204
+},
+{
+  "_id": {
+    "$oid": "6aa0f697d32797c2c9a7659f"
+  },
+  "carId": 1010,
+  "brand": "Honda",
+  "model": "CR-V",
+  "year": 2024,
+  "price": 22500000,
+  "color": "Green",
+  "engine": {
+    "type": "Hybrid",
+    "volume": 2,
+    "power": 204
+  },
+  "options": [
+    "Leather seats",
+    "Heated steering wheel",
+    "Rear camera"
+  ],
+  "features": [
+    {
+      "name": "Transmission",
+      "value": "Automatic"
+    },
+    {
+      "name": "Seats",
+      "value": 5
+    }
+  ],
+  "dealerId": 205
+},
+{
+  "_id": {
+    "$oid": "6aa0f7881fa5c9b1bf06485c"
+  },
+  "carId": 1001,
+  "brand": "Toyota",
+  "model": "Camry",
+  "year": 2024,
+  "price": 18500000,
+  "color": "White",
+  "engine": {
+    "type": "Petrol",
+    "volume": 2.5,
+    "power": 203
+  },
+  "options": [
+    "Leather seats",
+    "Heated seats",
+    "Cruise control"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0f7881fa5c9b1bf06485d"
+  },
+  "carId": 1002,
+  "brand": "BMW",
+  "model": "X5",
+  "year": 2023,
+  "price": 38500000,
+  "color": "Black",
+  "engine": {
+    "type": "Petrol",
+    "volume": 3,
+    "power": 340
+  },
+  "options": [
+    "Panoramic roof",
+    "Adaptive cruise control",
+    "Parking sensors"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0f7881fa5c9b1bf06485e"
+  },
+  "carId": 1003,
+  "brand": "Hyundai",
+  "model": "Tucson",
+  "year": 2024,
+  "price": 16500000,
+  "color": "Gray",
+  "engine": {
+    "type": "Petrol",
+    "volume": 2,
+    "power": 150
+  },
+  "options": [
+    "Heated seats",
+    "Rear camera",
+    "Climate control"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0f7881fa5c9b1bf06485f"
+  },
+  "carId": 1004,
+  "brand": "Mercedes-Benz",
+  "model": "E200",
+  "year": 2024,
+  "price": 42000000,
+  "color": "Silver",
+  "engine": {
+    "type": "Petrol",
+    "volume": 2,
+    "power": 204
+  },
+  "options": [
+    "Leather seats",
+    "Panoramic roof",
+    "LED headlights"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0f7881fa5c9b1bf064860"
+  },
+  "carId": 1005,
+  "brand": "Kia",
+  "model": "Sportage",
+  "year": 2023,
+  "price": 15200000,
+  "color": "Blue",
+  "engine": {
+    "type": "Petrol",
+    "volume": 2,
+    "power": 150
+  },
+  "options": [
+    "Heated steering wheel",
+    "Rear camera",
+    "Cruise control"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0f7881fa5c9b1bf064861"
+  },
+  "carId": 1006,
+  "brand": "Lexus",
+  "model": "RX350",
+  "year": 2024,
+  "price": 39500000,
+  "color": "Black",
+  "engine": {
+    "type": "Petrol",
+    "volume": 3.5,
+    "power": 300
+  },
+  "options": [
+    "Leather seats",
+    "Panoramic roof",
+    "360 camera"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0f7881fa5c9b1bf064862"
+  },
+  "carId": 1007,
+  "brand": "Audi",
+  "model": "A6",
+  "year": 2023,
+  "price": 33000000,
+  "color": "White",
+  "engine": {
+    "type": "Petrol",
+    "volume": 2,
+    "power": 245
+  },
+  "options": [
+    "Virtual cockpit",
+    "LED headlights",
+    "Heated seats"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0f7881fa5c9b1bf064863"
+  },
+  "carId": 1008,
+  "brand": "Toyota",
+  "model": "RAV4",
+  "year": 2024,
+  "price": 21000000,
+  "color": "Red",
+  "engine": {
+    "type": "Hybrid",
+    "volume": 2.5,
+    "power": 219
+  },
+  "options": [
+    "Adaptive cruise control",
+    "Rear camera",
+    "Heated seats"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0f7881fa5c9b1bf064864"
+  },
+  "carId": 1009,
+  "brand": "Volkswagen",
+  "model": "Tiguan",
+  "year": 2023,
+  "price": 17800000,
+  "color": "Gray",
+  "engine": {
+    "type": "Petrol",
+    "volume": 1.5,
+    "power": 150
+  },
+  "options": [
+    "Climate control",
+    "Parking sensors",
+    "Cruise control"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0f7881fa5c9b1bf064865"
+  },
+  "carId": 1010,
+  "brand": "Honda",
+  "model": "CR-V",
+  "year": 2024,
+  "price": 22500000,
+  "color": "Green",
+  "engine": {
+    "type": "Hybrid",
+    "volume": 2,
+    "power": 204
+  },
+  "options": [
+    "Leather seats",
+    "Heated steering wheel",
+    "Rear camera"
+  ]
+}]

@@ -1,0 +1,30 @@
+[{
+  "_id": 201,
+  "name": "AutoCity",
+  "city": "Almaty",
+  "phone": "+7-700-111-2233"
+},
+{
+  "_id": 202,
+  "name": "DriveCenter",
+  "city": "Astana",
+  "phone": "+7-700-222-3344"
+},
+{
+  "_id": 203,
+  "name": "Premium Motors",
+  "city": "Shymkent",
+  "phone": "+7-700-333-4455"
+},
+{
+  "_id": 204,
+  "name": "CarHouse",
+  "city": "Karaganda",
+  "phone": "+7-700-444-5566"
+},
+{
+  "_id": 205,
+  "name": "AutoWorld",
+  "city": "Almaty",
+  "phone": "+7-700-555-6677"
+}]
