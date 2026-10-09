@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "6ac5e37dc3dd781e3f2c0c2b"
+  },
+  "teacher_id": "T-10",
+  "lesson_date": {
+    "$date": "2026-10-12T00:00:00.000Z"
+  },
+  "lesson_time": "09:00",
+  "group_id": "IS-24-1",
+  "course_id": "CS-101",
+  "course_name": "NoSQL Databases",
+  "room": "505"
+},
+{
+  "_id": {
+    "$oid": "6ac5e37dc3dd781e3f2c0c2c"
+  },
+  "teacher_id": "T-11",
+  "lesson_date": {
+    "$date": "2026-10-12T00:00:00.000Z"
+  },
+  "lesson_time": "10:45",
+  "group_id": "IS-24-1",
+  "course_id": "CS-102",
+  "course_name": "Web Programming",
+  "room": "405"
+},
+{
+  "_id": {
+    "$oid": "6ac5e37dc3dd781e3f2c0c2d"
+  },
+  "teacher_id": "T-10",
+  "lesson_date": {
+    "$date": "2026-10-13T00:00:00.000Z"
+  },
+  "lesson_time": "09:00",
+  "group_id": "IS-24-1",
+  "course_id": "CS-103",
+  "course_name": "Software Architecture",
+  "room": "301"
+},
+{
+  "_id": {
+    "$oid": "6ac5e37dc3dd781e3f2c0c2e"
+  },
+  "teacher_id": "T-10",
+  "lesson_date": {
+    "$date": "2026-10-14T00:00:00.000Z"
+  },
+  "lesson_time": "09:00",
+  "group_id": "IS-24-1",
+  "course_id": "CS-101",
+  "course_name": "NoSQL Databases",
+  "room": "301"
+},
+{
+  "_id": {
+    "$oid": "6ac5e37dc3dd781e3f2c0c2f"
+  },
+  "teacher_id": "T-12",
+  "lesson_date": {
+    "$date": "2026-10-12T00:00:00.000Z"
+  },
+  "lesson_time": "09:00",
+  "group_id": "CS-24-2",
+  "course_id": "CS-104",
+  "course_name": "Algorithms",
+  "room": "210"
+}]
