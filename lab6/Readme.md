@@ -20,7 +20,6 @@
 <img width="967" height="886" alt="image" src="https://github.com/user-attachments/assets/00d98c7c-32b7-4de1-9eed-bf723a9c37a2" />
 <img width="794" height="892" alt="image" src="https://github.com/user-attachments/assets/fcb4c15d-726a-4716-a4b6-68ba9c6a7c5f" />
 <img width="504" height="384" alt="image" src="https://github.com/user-attachments/assets/6b4aa38a-c20c-4f1b-bc25-c81cfea1869e" />
-<img width="340" height="232" alt="image" src="https://github.com/user-attachments/assets/7719d5f0-581c-4093-9619-a38682fa76fa" />
 
 ### Этап 2. Проектирование от запросов (Query-Driven Design)
 
