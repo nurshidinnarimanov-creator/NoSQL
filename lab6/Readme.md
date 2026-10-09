@@ -1,11 +1,5 @@
 # Лабораторная работа № 6: Моделирование таблиц Cassandra от запросов (реализация в MongoDB)
 
-**Дисциплина:** Проектирование и применение NoSQL-технологий  
-**Предметная область:** Информационные системы / Базы данных  
-**Вариант:** № 1 — Университет  
-
----
-
 ## 📌 Цель работы
 Сформировать практические навыки query-driven проектирования NoSQL-модели: от анализа пользовательских запросов и нагрузки к выбору аналогов partition key и clustering columns (составных индексов), созданию коллекций и проверке того, что ключевые запросы выполняются без полного сканирования коллекции (Full Collection Scan).
 
@@ -19,7 +13,6 @@
 * `schedule_by_group` — хранение и выборка расписания академических групп.
 * `schedule_by_teacher` — хранение и выборка занятий преподавателей.
 
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a27c0b91-18a1-421c-887b-47f138c76119" />
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/afeb42c0-4635-4793-b411-761c27168450" />
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/cc49d245-a3b6-45ac-9293-06553f84127e" />
 
