@@ -1,9 +1,17 @@
-## Цель работы
+# Лабораторная работа № 6: Моделирование таблиц Cassandra от запросов (реализация в MongoDB)
+
+**Дисциплина:** Проектирование и применение NoSQL-технологий  
+**Предметная область:** Информационные системы / Базы данных  
+**Вариант:** № 1 — Университет  
+
+---
+
+## 📌 Цель работы
 Сформировать практические навыки query-driven проектирования NoSQL-модели: от анализа пользовательских запросов и нагрузки к выбору аналогов partition key и clustering columns (составных индексов), созданию коллекций и проверке того, что ключевые запросы выполняются без полного сканирования коллекции (Full Collection Scan).
 
 ---
 
-##  Ход выполнения работы
+## 🛠️ Ход выполнения работы
 
 ### Этап 1. Подготовка базы данных и коллекций
 
@@ -11,6 +19,7 @@
 * `schedule_by_group` — хранение и выборка расписания академических групп.
 * `schedule_by_teacher` — хранение и выборка занятий преподавателей.
 
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a27c0b91-18a1-421c-887b-47f138c76119" />
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/afeb42c0-4635-4793-b411-761c27168450" />
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/cc49d245-a3b6-45ac-9293-06553f84127e" />
 
@@ -20,6 +29,7 @@
 <img width="967" height="886" alt="image" src="https://github.com/user-attachments/assets/00d98c7c-32b7-4de1-9eed-bf723a9c37a2" />
 <img width="794" height="892" alt="image" src="https://github.com/user-attachments/assets/fcb4c15d-726a-4716-a4b6-68ba9c6a7c5f" />
 <img width="504" height="384" alt="image" src="https://github.com/user-attachments/assets/6b4aa38a-c20c-4f1b-bc25-c81cfea1869e" />
+<img width="340" height="232" alt="image" src="https://github.com/user-attachments/assets/7719d5f0-581c-4093-9619-a38682fa76fa" />
 
 ### Этап 2. Проектирование от запросов (Query-Driven Design)
 
@@ -118,5 +128,8 @@ db.schedule_by_teacher.updateOne(
   { $set: { room: "505" } }
 );
 
-Вывод
+
+📊 Этап 7. Анализ нагрузки и размер партицийРасчет для группы: За 1 семестр (15 недель) группа проводит $4 \text{ пары/день} \times 6 \text{ дней} \times 15 \text{ недель} = 360 \text{ записей}$. За 4 года обучения собирается ~2880 документов. Это оптимальный размер для единого ключа group_id.Риск Large Partition / Hot Partition: Для преподавателей с длительным стажем размер коллекции или индексной выборки может превысить миллион записей.Решение (Time Bucketing): Добавление учебного года в ключ (academic_year: 2026) позволяет логически разбивать крупные коллекции на годовые блоки.
+
+📝 Вывод
 В ходе лабораторной работы освоены принципы Query-Driven Design. Продемонстрировано, что для достижения высокой скорости чтения в NoSQL-системах применяется осознанная денормализация данных с созданием отдельных коллекций/таблиц под каждый паттерн доступа.

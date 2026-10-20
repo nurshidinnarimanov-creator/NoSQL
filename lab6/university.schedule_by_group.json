@@ -1,0 +1,75 @@
+[{
+  "_id": {
+    "$oid": "6ac5e367c3dd781e3f2c0c25"
+  },
+  "group_id": "IS-24-1",
+  "lesson_date": {
+    "$date": "2026-10-12T00:00:00.000Z"
+  },
+  "lesson_time": "09:00",
+  "course_id": "CS-101",
+  "course_name": "NoSQL Databases",
+  "teacher_id": "T-10",
+  "teacher_name": "A. Petrov",
+  "room": "505"
+},
+{
+  "_id": {
+    "$oid": "6ac5e367c3dd781e3f2c0c26"
+  },
+  "group_id": "IS-24-1",
+  "lesson_date": {
+    "$date": "2026-10-12T00:00:00.000Z"
+  },
+  "lesson_time": "10:45",
+  "course_id": "CS-102",
+  "course_name": "Web Programming",
+  "teacher_id": "T-11",
+  "teacher_name": "B. Ivanov",
+  "room": "405"
+},
+{
+  "_id": {
+    "$oid": "6ac5e367c3dd781e3f2c0c27"
+  },
+  "group_id": "IS-24-1",
+  "lesson_date": {
+    "$date": "2026-10-13T00:00:00.000Z"
+  },
+  "lesson_time": "09:00",
+  "course_id": "CS-103",
+  "course_name": "Software Architecture",
+  "teacher_id": "T-10",
+  "teacher_name": "A. Petrov",
+  "room": "301"
+},
+{
+  "_id": {
+    "$oid": "6ac5e367c3dd781e3f2c0c28"
+  },
+  "group_id": "IS-24-1",
+  "lesson_date": {
+    "$date": "2026-10-14T00:00:00.000Z"
+  },
+  "lesson_time": "09:00",
+  "course_id": "CS-101",
+  "course_name": "NoSQL Databases",
+  "teacher_id": "T-10",
+  "teacher_name": "A. Petrov",
+  "room": "301"
+},
+{
+  "_id": {
+    "$oid": "6ac5e367c3dd781e3f2c0c29"
+  },
+  "group_id": "CS-24-2",
+  "lesson_date": {
+    "$date": "2026-10-12T00:00:00.000Z"
+  },
+  "lesson_time": "09:00",
+  "course_id": "CS-104",
+  "course_name": "Algorithms",
+  "teacher_id": "T-12",
+  "teacher_name": "C. Sidorov",
+  "room": "210"
+}]
